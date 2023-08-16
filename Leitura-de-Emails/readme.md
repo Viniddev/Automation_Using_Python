@@ -2,6 +2,7 @@
 
 
 [Estruturas]
+
     /*
         username = "diasvinicius95@gmail.com"
         password = open("pass", "r").read()

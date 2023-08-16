@@ -1,6 +1,7 @@
 *** Explicação ***
 
 [Explicação]
+
     /*
         email_senha = open("pass", "r").read()
     */
