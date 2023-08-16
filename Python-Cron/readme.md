@@ -21,6 +21,7 @@
 [/Variáveis]
 
 [Estruturas]
+
     /*
         for type_ in types:
             if type_ not in os.listdir():
