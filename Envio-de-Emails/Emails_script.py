@@ -10,7 +10,7 @@ email_origem = "diasvinicius95@gmail.com"
 email_destino = ("diasvinicius95@outlook.com")
 
 assunto = "Testando envio automático"
-body = open("corpo_do_email.txt", "r").read()
+body = open("email.txt", "r").read()
 
 mensagem = EmailMessage()
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>olá!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: 'Italiana', serif;
+            background-color: #FAF3F0;
+        }     
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+
+        }
+        p{
+            font-weight: 600;
+            font-size: 25px;
+            width: 575px;
+            text-align: justify;
+            margin-top: 80px;
+            margin-bottom: 100px;
+            background-color: #DBC4F0;
+            line-height: 60px;
+            padding: 15px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+
+        span{
+            width: 550px;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1, span{
+            background-color: #D4E2D4;
+            height: 75px;
+            width: 600px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Olá, espero que esteja bem!</h1>
+    <p>
+        Me chamo Vinícius e venho por meio deste E-mail me candidatar
+        à oportunidade de estágio. Desde ja agradeço. Aguardo Retorno.
+    </p>
+    <span>
+        Att: Vinícius
+        Belo Horizonte, Agosto de 2023
+    </span>
+</body>
+</html>
