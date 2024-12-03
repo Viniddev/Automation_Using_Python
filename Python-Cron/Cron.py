@@ -7,9 +7,6 @@ def organize_folder():
 
     base_Path = os.path.expanduser("~")
     path = os.path.join(base_Path, "Documents")
-
-    print(path)
-
     cwd = os.chdir(path)
     full_List = os.listdir(cwd)
 
@@ -17,7 +14,7 @@ def organize_folder():
         document = files.split(".")
         if len(document) > 1:
             if document[len(document)-1] not in types:
-                types.append(document[1])
+                types.append(document[len(document)-1])
 
     for type_ in types:
         if type_ not in os.listdir():
